@@ -6,7 +6,7 @@ pipeline {
     stages{
         stage('GIT checkout') {
             steps {
-                git credentialsId: 'github_cred', url: 'https://github.com/tmatin100/CalTech-PG-DevOps-Final-Capstone-Project.git'
+                git credentialsId: 'github_cred', url: 'https://github.com/Aboude1/B-Safe.git'
            }
        }
           stage('Build Package') {
